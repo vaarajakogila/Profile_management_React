@@ -1,0 +1,49 @@
+.admin-panel {
+  background: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.profile-form input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.profile-form button {
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-panel li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.admin-panel button {
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-panel button:nth-child(2) {
+  background-color: #ffc107;
+}
+
+.admin-panel button:nth-child(3) {
+  background-color: #dc3545;
+  color: white;
+}
